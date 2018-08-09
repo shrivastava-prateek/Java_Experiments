@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.OutputStream;
+//import java.io.OutputStream;
 import org.apache.commons.net.ftp.FTP;
 import org.apache.commons.net.ftp.FTPClient;
 
@@ -21,8 +21,8 @@ public class FileTransfer {
 	    public static void main(String[] args) {
 	        String server = "speedtest.tele2.net";
 	        int port = 21;
-	        String user = "user";
-	        String pass = "pass";
+	        //String user = "user";
+	        //String pass = "pass";
 	 
 	        FTPClient ftpClient = new FTPClient();
 	        try {
