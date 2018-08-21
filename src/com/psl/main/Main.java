@@ -10,6 +10,12 @@ import org.json.simple.parser.ParseException;
 public class Main {
 
 	public static void main(String[] args) throws ParseException {
+		
+		List<String> strings = null;
+		for(String s: strings){
+			System.out.println(s);
+		}
+		
 		// TODO Auto-generated method stub\\
 		JSONObject jsonObj = new JSONObject();
 		JSONParser parser = new JSONParser();
